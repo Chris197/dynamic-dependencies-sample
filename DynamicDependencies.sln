@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicDependencies", "DynamicDependencies\DynamicDependencies.csproj", "{7E54ADD8-176B-4CFB-8B9A-C2BEC327581F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{8CF9985D-4A0A-4A2F-825E-2417206518BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swashbuckle.AspNetCore.Swagger", "Dependencies\Swashbuckle.AspNetCore\src\Swashbuckle.AspNetCore.Swagger\Swashbuckle.AspNetCore.Swagger.csproj", "{C143DC28-4F9B-4379-831F-021D4D0228BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E54ADD8-176B-4CFB-8B9A-C2BEC327581F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E54ADD8-176B-4CFB-8B9A-C2BEC327581F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E54ADD8-176B-4CFB-8B9A-C2BEC327581F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E54ADD8-176B-4CFB-8B9A-C2BEC327581F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C143DC28-4F9B-4379-831F-021D4D0228BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C143DC28-4F9B-4379-831F-021D4D0228BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C143DC28-4F9B-4379-831F-021D4D0228BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C143DC28-4F9B-4379-831F-021D4D0228BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C143DC28-4F9B-4379-831F-021D4D0228BF} = {8CF9985D-4A0A-4A2F-825E-2417206518BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39B49C04-1419-4F11-8058-6F305C4A76C6}
+	EndGlobalSection
+EndGlobal
